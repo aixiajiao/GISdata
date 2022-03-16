@@ -1,0 +1,3047 @@
+[
+  {
+    "Entity": "Austria",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 158
+  },
+  {
+    "Entity": "Austria",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 176
+  },
+  {
+    "Entity": "Austria",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 168
+  },
+  {
+    "Entity": "Austria",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 213
+  },
+  {
+    "Entity": "Austria",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 197
+  },
+  {
+    "Entity": "Austria",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 189
+  },
+  {
+    "Entity": "Austria",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 183
+  },
+  {
+    "Entity": "Austria",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 169
+  },
+  {
+    "Entity": "Austria",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 159
+  },
+  {
+    "Entity": "Austria",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 137
+  },
+  {
+    "Entity": "Austria",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 156
+  },
+  {
+    "Entity": "Austria",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 164
+  },
+  {
+    "Entity": "Austria",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 121
+  },
+  {
+    "Entity": "Austria",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 109
+  },
+  {
+    "Entity": "Austria",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 94
+  },
+  {
+    "Entity": "Austria",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 110
+  },
+  {
+    "Entity": "Austria",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 98
+  },
+  {
+    "Entity": "Austria",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 107
+  },
+  {
+    "Entity": "Austria",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 102
+  },
+  {
+    "Entity": "Austria",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 99
+  },
+  {
+    "Entity": "Austria",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 83
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 270
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 257
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 263
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 266
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 271
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 275
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 253
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 242
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 238
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 213
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 213
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 194
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 208
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 190
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 205
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 227
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 172
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 177
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 207
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 184
+  },
+  {
+    "Entity": "Belgium",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 192
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 476
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 525
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 483
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 536
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 536
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 505
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 497
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 602
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 568
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 526
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 529
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 583
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 525
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 481
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 476
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 486
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 462
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 497
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 425
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 424
+  },
+  {
+    "Entity": "Bulgaria",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 352
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 292
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 305
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 363
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 389
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 288
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 305
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 314
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 396
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 344
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 271
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 216
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 306
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 290
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 206
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 178
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 212
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 210
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 195
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 135
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 172
+  },
+  {
+    "Entity": "Croatia",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 164
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 849
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 787
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 767
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 774
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 782
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 800
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 793
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 796
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 793
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 776
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 735
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 759
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 757
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 666
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 682
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 670
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 679
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 661
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 664
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 660
+  },
+  {
+    "Entity": "Cyprus",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 653
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 688
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 687
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 664
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 599
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 597
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 616
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 613
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 615
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 602
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 572
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 554
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 544
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 508
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 477
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 481
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 495
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 505
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 453
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 445
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 423
+  },
+  {
+    "Entity": "Czechia",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 386
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 479
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 470
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 463
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 490
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 424
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 388
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 475
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 442
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 414
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 412
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 368
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 331
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 272
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 311
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 268
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 192
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 231
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 176
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 189
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 122
+  },
+  {
+    "Entity": "Denmark",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 116
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 1116
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 1087
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 1054
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 1062
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 1047
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 1028
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 984
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 1015
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 1009
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 980
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 973
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 992
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 938
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 992
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 993
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 944
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 924
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 928
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 900
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 783
+  },
+  {
+    "Entity": "Estonia",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 669
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 399
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 393
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 400
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 405
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 395
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 387
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 386
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 393
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 369
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 355
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 341
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 348
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 343
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 326
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 317
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 317
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 305
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 303
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 287
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 252
+  },
+  {
+    "Entity": "European Union (27)",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 226
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 164
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 210
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 231
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 289
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 241
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 148
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 248
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 221
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 163
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 181
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 218
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 179
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 125
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 161
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 140
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 103
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 109
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 99
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 111
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 89
+  },
+  {
+    "Entity": "Finland",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 67
+  },
+  {
+    "Entity": "France",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 92
+  },
+  {
+    "Entity": "France",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 73
+  },
+  {
+    "Entity": "France",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 78
+  },
+  {
+    "Entity": "France",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 84
+  },
+  {
+    "Entity": "France",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 83
+  },
+  {
+    "Entity": "France",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 104
+  },
+  {
+    "Entity": "France",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 101
+  },
+  {
+    "Entity": "France",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 96
+  },
+  {
+    "Entity": "France",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 87
+  },
+  {
+    "Entity": "France",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 79
+  },
+  {
+    "Entity": "France",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 77
+  },
+  {
+    "Entity": "France",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 65
+  },
+  {
+    "Entity": "France",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 69
+  },
+  {
+    "Entity": "France",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 69
+  },
+  {
+    "Entity": "France",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 51
+  },
+  {
+    "Entity": "France",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 54
+  },
+  {
+    "Entity": "France",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 60
+  },
+  {
+    "Entity": "France",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 69
+  },
+  {
+    "Entity": "France",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 54
+  },
+  {
+    "Entity": "France",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 54
+  },
+  {
+    "Entity": "France",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 55
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 559
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 574
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 570
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 554
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 538
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 520
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 515
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 534
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 501
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 496
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 483
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 499
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 505
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 501
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 490
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 460
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 456
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 424
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 406
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 343
+  },
+  {
+    "Entity": "Germany",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 301
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 975
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 984
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 956
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 914
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 920
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 915
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 854
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 880
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 870
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 854
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 875
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 883
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 869
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 808
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 846
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 739
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 622
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 658
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 662
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 603
+  },
+  {
+    "Entity": "Greece",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 522
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 460
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 453
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 446
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 504
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 453
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 377
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 381
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 384
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 362
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 319
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 325
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 330
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 322
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 288
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 271
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 271
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 261
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 264
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 251
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 226
+  },
+  {
+    "Entity": "Hungary",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 218
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 674
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 694
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 650
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 618
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 595
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 601
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 552
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 527
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 494
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 474
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 485
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 456
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 487
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 460
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 450
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 437
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 429
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 399
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 353
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 313
+  },
+  {
+    "Entity": "Ireland",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 293
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 396
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 383
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 406
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 443
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 455
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 397
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 389
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 381
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 371
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 353
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 338
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 327
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 312
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 272
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 257
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 283
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 262
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 263
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 248
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 229
+  },
+  {
+    "Entity": "Italy",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 212
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 137
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 126
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 126
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 124
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 96
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 86
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 109
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 105
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 111
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 93
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 115
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 127
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 85
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 126
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 123
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 141
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 117
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 65
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 138
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 147
+  },
+  {
+    "Entity": "Latvia",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 92
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 112
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 98
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 74
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 66
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 73
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 108
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 104
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 91
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 85
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 86
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 317
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 264
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 274
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 204
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 186
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 206
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 154
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 92
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 65
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 68
+  },
+  {
+    "Entity": "Lithuania",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 146
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 96
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 167
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 275
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 255
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 275
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 272
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 272
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 269
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 245
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 282
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 236
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 235
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 240
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 192
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 200
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 141
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 78
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 72
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 69
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 69
+  },
+  {
+    "Entity": "Luxembourg",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 69
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 839
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 1004
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 957
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 969
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 935
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 884
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 885
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 887
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 862
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 863
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 884
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 879
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 883
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 731
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 715
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 654
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 653
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 435
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 356
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 356
+  },
+  {
+    "Entity": "Malta",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 356
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 511
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 522
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 518
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 522
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 507
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 494
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 478
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 483
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 477
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 449
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 445
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 436
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 461
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 472
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 497
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 514
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 491
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 459
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 441
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 382
+  },
+  {
+    "Entity": "Netherlands",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 318
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 950
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 940
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 936
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 946
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 939
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 924
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 938
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 919
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 896
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 880
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 868
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 866
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 843
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 841
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 828
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 803
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 794
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 784
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 789
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 752
+  },
+  {
+    "Entity": "Poland",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 724
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 484
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 461
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 539
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 439
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 484
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 535
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 450
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 421
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 416
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 393
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 280
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 333
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 397
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 318
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 299
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 364
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 296
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 353
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 310
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 251
+  },
+  {
+    "Entity": "Portugal",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 201
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 461
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 466
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 463
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 521
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 452
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 417
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 463
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 563
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 516
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 453
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 387
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 458
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 456
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 364
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 331
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 349
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 309
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 315
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 291
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 271
+  },
+  {
+    "Entity": "Romania",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 208
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 233
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 219
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 199
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 221
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 227
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 196
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 184
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 187
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 189
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 166
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 140
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 152
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 151
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 132
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 117
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 125
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 116
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 119
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 137
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 104
+  },
+  {
+    "Entity": "Slovakia",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 90
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 355
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 381
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 395
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 390
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 362
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 364
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 371
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 394
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 345
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 331
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 332
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 342
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 333
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 309
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 217
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 256
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 254
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 254
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 248
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 242
+  },
+  {
+    "Entity": "Slovenia",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 219
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 467
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 416
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 468
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 412
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 423
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 439
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 398
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 411
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 347
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 317
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 256
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 319
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 333
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 270
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 280
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 318
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 266
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 305
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 276
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 228
+  },
+  {
+    "Entity": "Spain",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 190
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 18
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 20
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 27
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 36
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 22
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 18
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 22
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 19
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 19
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 19
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 26
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 19
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 15
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 15
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 12
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 11
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 12
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 13
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 13
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 12
+  },
+  {
+    "Entity": "Sweden",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 13
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2000,
+    "Carbon intensity of electricity (gCO2/kWh)": 484
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2001,
+    "Carbon intensity of electricity (gCO2/kWh)": 504
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2002,
+    "Carbon intensity of electricity (gCO2/kWh)": 494
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2003,
+    "Carbon intensity of electricity (gCO2/kWh)": 502
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2004,
+    "Carbon intensity of electricity (gCO2/kWh)": 513
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2005,
+    "Carbon intensity of electricity (gCO2/kWh)": 503
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2006,
+    "Carbon intensity of electricity (gCO2/kWh)": 527
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2007,
+    "Carbon intensity of electricity (gCO2/kWh)": 515
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2008,
+    "Carbon intensity of electricity (gCO2/kWh)": 509
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2009,
+    "Carbon intensity of electricity (gCO2/kWh)": 463
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2010,
+    "Carbon intensity of electricity (gCO2/kWh)": 471
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2011,
+    "Carbon intensity of electricity (gCO2/kWh)": 454
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2012,
+    "Carbon intensity of electricity (gCO2/kWh)": 502
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2013,
+    "Carbon intensity of electricity (gCO2/kWh)": 467
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2014,
+    "Carbon intensity of electricity (gCO2/kWh)": 425
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2015,
+    "Carbon intensity of electricity (gCO2/kWh)": 380
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2016,
+    "Carbon intensity of electricity (gCO2/kWh)": 294
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2017,
+    "Carbon intensity of electricity (gCO2/kWh)": 264
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2018,
+    "Carbon intensity of electricity (gCO2/kWh)": 250
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2019,
+    "Carbon intensity of electricity (gCO2/kWh)": 228
+  },
+  {
+    "Entity": "United Kingdom",
+    "Year": 2020,
+    "Carbon intensity of electricity (gCO2/kWh)": 209
+  }
+]

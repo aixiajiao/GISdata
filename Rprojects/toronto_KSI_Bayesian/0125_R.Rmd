@@ -1,0 +1,407 @@
+---
+title: "0125_R"
+output: html_document
+date: '2022-05-05'
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+packages <- c(
+   'dplyr','DT',
+   'janitor',
+   'ggplot2','gganimate','gifski',
+   'rgdal',
+   'sf','sp','stringr','spatstat','spdep','SpatialEpi','shiny','shinythemes',
+   'tidyverse','tmap','transformr',
+   'openxlsx','INLA','reshape2','leaflet',
+   'htmlwidgets','Hmisc'
+)
+installed_packages <- packages %in% rownames(installed.packages())
+if (any(installed_packages == FALSE)) {
+install.packages(packages[!installed_packages])}
+invisible(lapply(packages, library, character.only = TRUE))
+
+```
+
+```{r load data}
+ksi_raw <- read.csv('Data/KSI.csv')
+shp <- read_sf('Data/Neighbourhoods - historical 140.geojson')%>% 
+  dplyr::select(., c('geometry','AREA_SHORT_CODE','AREA_NAME'))
+#sf::st_write(shp, dsn = "shiny/shp.geojson")
+pop <- openxlsx::read.xlsx('Data/wellbeing-toronto-population-total-2011-2016-and-age-groups-2016.xlsx',2) %>% 
+  dplyr::select(., -5)
+qtm(shp)
+```
+
+```{r ksi cleanning}
+ksi <- ksi_raw %>% dplyr::select(., c('YEAR',#only select interested columns
+                                  #'LATITUDE','LONGITUDE', we could simply use hood ID 
+                                  #'VISIBILITY','RDSFCOND', #poor weather
+                                  #'SPEEDING', #speeding
+                                  #'AG_DRIV',#aggressive driving
+                                  #'REDLIGHT', #red light
+                                  #'ALCOHOL',#alcohol
+                                  #'PEDESTRIAN','CYCLIST', #pedestrian or cyclist involved
+                                  'HOOD_ID'
+                                  )) %>% 
+  dplyr::arrange('YEAR')%>%
+  dplyr::filter(.,YEAR >= 2011) %>% 
+  dplyr::filter(.,YEAR <= 2016)
+  
+
+  # %>% st_as_sf(coords = c('LONGITUDE','LATITUDE'),crs=4326,remove=T) 
+```
+
+```{r add missing population data}
+pop$Pop2015 <- round(pop$Pop2016 - (pop$Pop2016-pop$Pop2011)/5)
+pop$Pop2014 <- round(pop$Pop2015 - (pop$Pop2016-pop$Pop2011)/5)
+pop$Pop2013 <- round(pop$Pop2014 - (pop$Pop2016-pop$Pop2011)/5)
+pop$Pop2012 <- round(pop$Pop2013 - (pop$Pop2016-pop$Pop2011)/5)
+names(pop) <- c('hood_id','hood','2016','2011','2015','2014','2013','2012')
+pop_clean <-pivot_longer(pop, cols = c('2016','2011','2015','2014','2013','2012')) %>% 
+  rename( year = name,
+          population = value)
+pop_clean$uni <- paste(pop_clean$year,pop_clean$hood_id)
+```
+
+
+```{r non-temp ksi}
+ksi_b <- ksi %>% 
+  count(HOOD_ID) %>%
+  rename(ksi = n) %>% 
+  janitor::clean_names()
+
+ksi_b <- ksi_b[order(ksi_b$hood_id),]
+ksi_b <- ksi_b %>% dplyr::left_join(., pop, by='hood_id')
+#use spatialepi package to calculate expected fatal/major injury cases
+expected <- SpatialEpi::expected(population = ksi_b$`2013`, cases = ksi_b$ksi, n.strata = 1)
+
+#match the expected counts to their corresponding hood_id
+ksi_b$expected <- expected[match(ksi_b$hood_id, unique(ksi_b$hood_id))]
+ksi_b$ksi_per_thousand <- ksi_b$ksi / (ksi_b$`2013` / 1000)
+ksi_nontemp_shp <- dplyr::left_join(ksi_b,shp, by=c('hood_id'='AREA_SHORT_CODE')) %>% 
+  st_as_sf()
+```
+
+```{r Creating an adjacency matrix}
+adjacencyMatrix <- poly2nb(shp)
+nb2INLA("adjacencyObject.adj", adjacencyMatrix)
+g <- inla.read.graph(filename = "adjacencyObject.adj")
+plot(g)
+```
+
+```{r non_temp model }
+# specify the id number for the random effect
+ksi_nontemp_shp$uI <- 1:nrow(ksi_nontemp_shp)
+# specify priors
+prior <- list(
+    prec = list(prior = "loggamma", param = c(1, 0.0005)), # set prior for spatial random effects
+    phi = list(prior = "loggamma", param = c(1, 0.0005))   # set prior for spatial random effects
+)
+# formula
+formula = ksi ~ 1 + f(uI, model = "bym2", graph = g, hyper = prior)
+riskestimates <- inla(formula, family = "poisson", data = ksi_nontemp_shp, E = expected, control.predictor = list(compute = TRUE), control.compute = list(dic = TRUE,return.marginals.predictor = T))
+
+# show results
+summary(riskestimates)
+
+# Notes: extract the risk ratios and store in 'riskratio'
+
+riskratio <- riskestimates$summary.fitted.values
+ksi_nontemp_shp$relative_risk <- riskratio[, "mean"]       # Relative risk
+ksi_nontemp_shp$lower_clim <- riskratio[, "0.025quant"] # Lower credibility limit
+ksi_nontemp_shp$upper_clim <- riskratio[, "0.975quant"] # Upper credibility limit
+```
+
+
+```{r}
+l <- leaflet(ksi_nontemp_shp) %>% addTiles()
+
+pal <- colorNumeric(palette = "YlOrRd", domain = ksi_nontemp_shp$relative_risk)
+
+labels <- sprintf("<strong> %s </strong> <br/> ksi_per_thousand: %s <br/>
+  expected: %s <br/> relative_risk: %s",
+  ksi_nontemp_shp$hood, 
+  round(ksi_nontemp_shp$ksi_per_thousand,2), 
+  round(ksi_nontemp_shp$expected, 2),
+  round(ksi_nontemp_shp$relative_risk, 2)
+) %>%
+  lapply(htmltools::HTML)
+
+l %>%
+  addPolygons(
+    color = "grey", weight = 1,
+    fillColor = ~ pal(relative_risk), fillOpacity = 0.5,
+    highlightOptions = highlightOptions(weight = 4),
+    label = labels,
+    labelOptions = labelOptions(
+      style = list(
+        "font-weight" = "normal",
+        padding = "3px 8px"
+      ),
+      textsize = "15px", direction = "auto"
+    )
+  ) %>%
+  addLegend(
+    pal = pal, values = ~relative_risk, opacity = 0.5,
+    title = "relative_risk", position = "bottomright"
+  )
+
+
+```
+
+
+
+```{r temp ksi}
+ksi_a <- ksi %>% 
+  count(YEAR,HOOD_ID) %>%
+  rename(ksi = n) %>% 
+  janitor::clean_names()
+
+sort_ksi <- ksi_a[order(ksi_a$year,ksi_a$hood_id),]
+```
+
+```{r cleanning}
+# extract the length  for year = 15
+nyrs <- length(unique(sort_ksi$year))
+
+# expand each hood id 15 times
+laE <- rep(unique(sort_ksi$hood_id), each = nyrs)
+# extract the length for hood id = 140
+nla <- length(unique(sort_ksi$hood_id))
+# expand each lyear 140 times
+yrsE <- rep(unique(sort_ksi$year), times = nla)
+
+#create an empty dataframe with laE and yrsE
+df <- data.frame(
+  year = yrsE,
+  hood_id = laE)
+df <- df[order(df$year,df$hood_id),]
+#create unique ID for both dataframe
+df$uni = paste(df$year,df$hood_id)
+sort_ksi$uni = paste(sort_ksi$year,sort_ksi$hood_id)
+
+#fill the missing 0s 
+sort_ksi_fill <- dplyr::left_join(df,sort_ksi, by='uni')%>% 
+  #remove wrong coloumns
+  dplyr::select(.,-c('year.y','hood_id.y'))%>% 
+  #ADD population data
+  dplyr::left_join(., pop_clean, by='uni')%>% 
+  dplyr::select(., -c(1,2,3))
+sort_ksi_fill[is.na(sort_ksi_fill)] <- 0 #replace NAs with 0
+
+expected_temp <- SpatialEpi::expected(population = sort_ksi_fill$population, cases = sort_ksi_fill$ksi, n.strata = 1)
+temp_data <- dplyr::left_join(sort_ksi_fill,shp, by=c('hood_id'='AREA_SHORT_CODE')) %>% st_as_sf()
+temp_data$expected_temp <- expected_temp
+head(temp_data, 10)
+```
+
+
+```{r prepare dataframe and INLA}
+temp_data$idyear <- temp_data$year
+temp_data$hoodid2 <- temp_data$hood_id
+
+formulaTemp <- ksi ~ f(hood_id, model="bym", graph=g) + f(hoodid2, idyear, model="iid") + idyear
+
+tempRiskEstimates <- inla(formulaTemp, 
+                          family = "poisson", 
+                          data = temp_data, 
+                          E = expected_temp, 
+                          control.compute = list(dic = TRUE,return.marginals.predictor = T))
+```
+
+```{r store INLA output}
+riskratio <- tempRiskEstimates$summary.fitted.values
+head(riskratio, n=10)
+
+temp_data$relative_risk <- riskratio[, "mean"]       # Relative risk
+temp_data$lower_clim <- riskratio[, "0.025quant"] # Lower credibility limit
+temp_data$upper_clim <- riskratio[, "0.975quant"] # Upper credibility limit
+```
+
+```{r visualize temp model part1}
+Hmisc::describe(temp_data$relative_risk)
+
+quantile(temp_data$relative_risk, probs = c(0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9))
+```
+```{r fig.align="center", echo = FALSE,fig.width = 14}
+temp_data %>% st_as_sf()
+
+ggplot(temp_data) + geom_sf(aes(fill = relative_risk)) +
+  facet_wrap(~year, dir = "h", ncol = 3) +
+  ggtitle("Relative Risk") + theme_bw() +
+  theme(
+    axis.text.x = element_blank(),
+    axis.text.y = element_blank(),
+    axis.ticks = element_blank(),
+    legend.position="top",
+    legend.key.size = unit(10, 'cm'),
+    legend.key.height = unit(1, 'cm'),
+    legend.key.width = unit(4, 'cm'),
+    legend.title = element_text(size=20),
+    legend.text = element_text(size=20)
+  ) +
+  scale_fill_gradient2(
+    midpoint = 1, low = "blue", mid = "white", high = "red"
+  )
+```
+```{r prepare model for shiny}
+RiskCategorylist <- c("0.01 to 0.40", "0.40 to 0.55", "0.55 to 0.65",
+                      "0.65 to 0.75", "0.75 to 0.85", "0.85 to 0.99",
+                      "1.00 (null value)", ">1.00 to 1.15", "1.15 to 1.35",
+                      "1.30 to 1.60", "1.60 to 2.00", "2.00 to 2.50",
+                      "Above 3")
+
+# Create the colours for the above categories - from extreme blues to extreme reds
+RRPalette <- c("#33a6fe","#65bafe","#98cffe",
+               "#cbe6fe","#dfeffe","#fef9f9",
+               "#fed5d5","#feb1b1","#fe8e8e",
+               "#fe6a6a","#fe4646","#fe2424",
+               "#fe0000")
+
+# Now generate categories relative_risk temporal
+temp_data$RelativeRiskCat <- NA
+temp_data$RelativeRiskCat[temp_data$relative_risk>= 0 & temp_data$relative_risk <= 0.40] <- -6
+temp_data$RelativeRiskCat[temp_data$relative_risk> 0.40 & temp_data$relative_risk <= 0.55] <- -5
+temp_data$RelativeRiskCat[temp_data$relative_risk> 0.55 & temp_data$relative_risk <= 0.65] <- -4
+temp_data$RelativeRiskCat[temp_data$relative_risk> 0.65 & temp_data$relative_risk <= 0.75] <- -3
+temp_data$RelativeRiskCat[temp_data$relative_risk> 0.75 & temp_data$relative_risk < 0.85] <- -2
+temp_data$RelativeRiskCat[temp_data$relative_risk> 0.85 & temp_data$relative_risk < 1] <- -1
+temp_data$RelativeRiskCat[temp_data$relative_risk == 1] <- 0
+temp_data$RelativeRiskCat[temp_data$relative_risk> 1.00 & temp_data$relative_risk <= 1.15] <- 1
+temp_data$RelativeRiskCat[temp_data$relative_risk> 1.15 & temp_data$relative_risk <= 1.30] <- 2
+temp_data$RelativeRiskCat[temp_data$relative_risk> 1.30 & temp_data$relative_risk <= 1.60] <- 3
+temp_data$RelativeRiskCat[temp_data$relative_risk> 1.60 & temp_data$relative_risk <= 2.00] <- 4
+temp_data$RelativeRiskCat[temp_data$relative_risk> 2.00 & temp_data$relative_risk <= 2.50] <- 5
+temp_data$RelativeRiskCat[temp_data$relative_risk> 2.50 & temp_data$relative_risk <= 100] <- 6
+
+# Significance
+temp_data$Significance <- NA
+temp_data$Significance[temp_data$lower_clim<1 & temp_data$upper_clim>1] <- 0 # NOT SIGNIFICANT
+temp_data$Significance[temp_data$lower_clim==1 | temp_data$upper_clim==1] <- 0 # NOT SIGNIFICANT
+temp_data$Significance[temp_data$lower_clim>1 & temp_data$upper_clim>1] <- 1 # SIGNIFICANT INCREASE
+temp_data$Significance[temp_data$lower_clim<1 & temp_data$upper_clim<1] <- -1 # SIGNIFICANT DECREASE
+
+Prob <- round(sapply(tempRiskEstimates$marginals.fitted.values, FUN = function(marg){1 - inla.pmarginal(q = 1, marginal = marg)}), 3)
+
+temp_data$Pr <- Prob
+temp_data$ProbCat <- NA
+temp_data$ProbCat[temp_data$Pr>=0 & temp_data$Pr< 0.01] <- 1
+temp_data$ProbCat[temp_data$Pr>=0.01 & temp_data$Pr< 0.10] <- 2
+temp_data$ProbCat[temp_data$Pr>=0.10 & temp_data$Pr< 0.20] <- 3
+temp_data$ProbCat[temp_data$Pr>=0.20 & temp_data$Pr< 0.30] <- 4
+temp_data$ProbCat[temp_data$Pr>=0.30 & temp_data$Pr< 0.40] <- 5
+temp_data$ProbCat[temp_data$Pr>=0.40 & temp_data$Pr< 0.50] <- 6
+temp_data$ProbCat[temp_data$Pr>=0.50 & temp_data$Pr< 0.60] <- 7
+temp_data$ProbCat[temp_data$Pr>=0.60 & temp_data$Pr< 0.70] <- 8
+temp_data$ProbCat[temp_data$Pr>=0.70 & temp_data$Pr< 0.80] <- 9
+temp_data$ProbCat[temp_data$Pr>=0.80 & temp_data$Pr< 0.90] <- 10
+temp_data$ProbCat[temp_data$Pr>=0.90 & temp_data$Pr<= 1.00] <- 11
+
+ProbCategorylist <- c("<0.01", "0.01-0.09", "0.10-0.19",
+                      "0.20-0.29", "0.30-0.39", "0.40-0.49",
+                      "0.50-0.59", "0.60-0.69","0.70-0.79",
+                      "0.80-0.89", "0.90-1.00")
+temp_data$ksi_per_thousand <- temp_data$ksi / (temp_data$population / 1000)
+summary(temp_data$ksi_per_thousand)
+```
+
+```{r save RDS}
+saveRDS(temp_data, file = 'temp_model.rds',compress = T)
+```
+
+
+```{r creating a shiny app}
+spatial.rds <- readRDS("temp_model.rds")
+spatial.rds$relative_risk <- round(spatial.rds$relative_risk,2)
+ui <- fluidPage(
+    # set the theme (see https://rstudio.github.io/shinythemes/)
+    theme = shinytheme("cerulean"),
+    # Title for web application
+    titlePanel("Toronto, Canada: Severe Road Accident Risk Maps (2011-2016)"),
+    # Including a sidebar - use sidebarLayout() function
+    sidebarLayout(
+        sidebarPanel(
+        # Use selectInput() to capture the year values 2015, 2016, ..., 2020 to make maps reactive on years
+        selectInput(inputId = "Years", label = "Select a year:", choices = c(2011,2012,2013,2014,2015,2016))
+    ),
+    mainPanel(
+      tabsetPanel(
+        tabPanel("Posterior Risk Estimates", leafletOutput("CompactLayeredMapOutput", height = "90vh")),
+        tabPanel("KSI (Plots)",plotOutput("HistogramOutput", height = "90vh")),
+        tabPanel("Data Viewer", DT::dataTableOutput("DataViewerOutput", height = "auto"))
+        )
+    )
+    )
+)
+
+# Part 2: Define the server logic
+server <- function(input, output) {
+    # create a reactive function to make all outputs in mainPanel change with the years
+    year_react <- reactive({
+        yr <- spatial.rds[spatial.rds$year == input$Years,]
+        return(yr)
+    })
+    # year_react() apply this function in place of spatial.rds
+    output$CompactLayeredMapOutput <- renderLeaflet({
+        # risk categories for labels
+        RiskCategorylist <- c("0.01 to 0.40", "0.40 to 0.55", "0.55 to 0.65",
+                      "0.65 to 0.75", "0.75 to 0.85", "0.85 to 0.99",
+                      "1.00 (null value)", ">1.00 to 1.15", "1.15 to 1.35",
+                      "1.30 to 1.60", "1.60 to 2.00", "2.00 to 2.50",
+                      "Above 3")
+        #colours for the above categories
+        RRPalette <- c("#33a6fe","#65bafe","#98cffe",
+               "#cbe6fe","#dfeffe","#fef9f9",
+               "#fed5d5","#feb1b1","#fe8e8e",
+               "#fe6a6a","#fe4646","#fe2424",
+               "#fe0000")
+        # Significance label categories and colour scheme
+        SigCategorylist <- c("Significantly low", "Not Significant", "Significantly high")
+        SigPalette <- c("#33a6fe", "white", "#fe0000")
+        ProbCategorylist <- c("<0.01", "0.01-0.09", "0.10-0.19",
+                              "0.20-0.29", "0.30-0.39", "0.40-0.49",
+                              "0.50-0.59", "0.60-0.69", "0.70-0.79",
+                              "0.80-0.89", "0.90-1.00")
+
+        # create one table containing the year, KSI, RelativeRiskCat, Signficance, probability.Here, apply function year_react() here to make dynamic
+        `Relative Risk` <- year_react()[, c(4,1,14)]
+        `Significance` <- year_react()[, c(4,1,15)]
+        `Exceedance Probabilities` <- year_react()[, c(4,1,17)]
+        `KSI per thousand` <- year_react()[,c(4,1,18)]
+        `Neighbourhoods` <- shp
+        
+        # Create tmap with all maps in one object
+        InteractiveMap <- tm_shape(`Significance`) +
+            tm_fill("Significance", style = "cat", title = "Significance Categories", palette = SigPalette, labels = SigCategorylist) +
+            tm_shape(`Relative Risk`) + # map of relative risk
+            tm_polygons("RelativeRiskCat", style = "cat", title = "Relavtive Risk", palette = RRPalette, labels = RiskCategorylist, border.alpha = 0) +
+          tm_shape(`Exceedance Probabilities`) + # map of Probability
+          tm_polygons("ProbCat", style = "cat", title = "Exceedance Probabilities", palette = "plasma", labels = ProbCategorylist, border.alpha = 0) +
+          tm_shape(`KSI per thousand`) + # map of KSI per thousand
+            tm_polygons("ksi_per_thousand", style = "pretty", title = "KSI per thousand", palette = "Reds", border.alpha = 0) +
+            tm_shape(`Neighbourhoods`) + tm_polygons(alpha = 0, border.alpha = 1, border.col = "black")
+        
+        # Visualise them as a compact map through leaflet
+        InteractiveMap <- tmap_leaflet(InteractiveMap) %>%
+            addProviderTiles(providers$OpenStreetMap, group="Street") %>% 
+            addProviderTiles(providers$CartoDB.DarkMatter, group="Dark") %>%
+            addLayersControl(baseGroups = c("Street", "Dark"), overlayGroups=c("Neighbourhoods", "KSI per thousand","Relative Risk", "Significance","Exceedance Probabilities"), position="topleft", options = layersControlOptions(collapsed = FALSE))
+        
+        # Resulting leaflet map
+        InteractiveMap
+    })
+    
+        # Create histogram for second panel
+    output$HistogramOutput <- renderPlot({
+        hist(year_react()$ksi, 
+                 xlab = paste("Number of recorded cases in ", input$Years, sep= ""),
+                 ylab = "Frequency", main=paste("Distribution of Road Accidents in ", input$Years, sep = ""), breaks = 20)
+    })
+    # Create data viewer for third panel
+    output$DataViewerOutput <- DT::renderDataTable({
+      DT::datatable(year_react()[, c("hood","hood_id", "year", "ksi",'relative_risk')], rownames = FALSE, options = list(sScrollY = '75vh', scrollCollapse = TRUE), extensions = list("Scroller"))
+    })
+}
+shinyApp(ui = ui, server = server)
+```
